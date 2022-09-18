@@ -376,3 +376,7 @@ border: var(--gallery-li-border-color) 1px solid;
     font-weight: 400;
 
 }
+
+.portfolio-section{
+    width: 1170px;
+}
