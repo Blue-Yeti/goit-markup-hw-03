@@ -1,17 +1,6 @@
 
 :root{
 
-    /* 
-    main bule 2196F3
-    main white fff
-    main black 212121
-    main gray 757575
-    white-60 fff 60%
-    btn-bg F5F4FA
-    gallery-li-border-color EEEEEE
-    header-border-color ECECEC
-    */
-
 --main-blue: #2196F3;
 --main-white: #fff;
 --main-black: #212121;
@@ -42,6 +31,7 @@ body {
     letter-spacing: 0.03em;
     line-height: 1.62;
     width: 1600px;
+
 }
 
 main {
@@ -131,6 +121,8 @@ margin-inline: 10px;
 
 .studio-hero h1{
     font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
     color: var(--main-white);
     text-align: center;
     letter-spacing: 0.06em;
@@ -150,10 +142,9 @@ margin-inline: 10px;
 
 }
 
-.hero-btn:hover, .hero-btn:focus{
+.hero-btn:hover, .hero-btn:focus-visible{
     background-color: var(--blue-80);
     outline: none;
-
 }
 
 .h2-title{
