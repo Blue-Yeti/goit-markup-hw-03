@@ -131,6 +131,10 @@ body {
 /*====================================*/
 /* HEADER > main_nav */
 /*====================================*/
+
+.header-styles{
+    border-bottom: 1px solid var(--clr-border);
+}
 .main-nav{
     padding-top: 25px;
     padding-bottom: 25px;
@@ -153,6 +157,11 @@ body {
 /*====================================*/
 /* SECTIONS */
 /*====================================*/
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /* section-one */
 .section-one{
     background-color: var(--bg-color-primary);
@@ -165,12 +174,6 @@ body {
 /* section-two */
 .section-two{
     background-color: var(--bg-white);
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.section-two__invisible{
-
 }
 
 .section-two__cards{
@@ -219,9 +222,6 @@ body {
 
 .section-four{
     background-color: var(--btn-bg);
-    padding-top: 94px;
-    padding-bottom: 94px;
-
 }
 .section-four__header{
     font-weight: 700;
@@ -293,9 +293,6 @@ body {
     text-transform: uppercase;
 }
 
-.section-two__main-header{
-
-}
 
 
 /*====================================*/
@@ -407,10 +404,6 @@ margin-right: 93px;
 
 /* PORTFOLIO PAGE */
 
-.portfolio-section-one{
-    padding-top: 94px;
-    margin-bottom: 94px;
-}
 
 .portfolio-section-one__main-header{
     text-align: center;
