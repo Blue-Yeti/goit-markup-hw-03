@@ -458,7 +458,6 @@ margin-right: 93px;
 }
 
 .portfolio-section-one__card:nth-last-child(-n +3){
-    border-bottom: #2196F3 3px solid;
     margin-bottom: 0;
 }
 
