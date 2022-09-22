@@ -267,7 +267,7 @@ body {
     padding-left: .9375rem ;
     padding-right: .9375rem;
     margin-inline: auto;
-    outline: 2px red solid;
+    /* outline: 2px red solid; */
 }
 
 .flex-container{
@@ -455,6 +455,11 @@ margin-right: 93px;
     border: 1px solid #EEEEEE;
     padding-bottom: 0;
     margin-bottom: 30px;
+}
+
+.portfolio-section-one__card:nth-last-child(-n +3){
+    border-bottom: #2196F3 3px solid;
+    margin-bottom: 0;
 }
 
 .portfolio-li-wrapper{
